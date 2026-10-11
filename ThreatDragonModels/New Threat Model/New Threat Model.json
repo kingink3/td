@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "7ebf3e6b-960d-482d-a8a5-4c46f9d22875",
             "zIndex": -1,
+            "id": "7ebf3e6b-960d-482d-a8a5-4c46f9d22875",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Интернет",
@@ -52,7 +52,7 @@
           {
             "position": {
               "x": 301,
-              "y": 195
+              "y": 188
             },
             "size": {
               "width": 470,
@@ -65,8 +65,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "0bf85ec9-dab0-4a26-ae25-cfba3af9101d",
             "zIndex": -1,
+            "id": "0bf85ec9-dab0-4a26-ae25-cfba3af9101d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Приватная сеть, внутренние сервисы\n",
@@ -83,6 +83,13 @@
                 "980ae99c-bfd8-41bc-9c24-72453e24d3f3",
                 "3db78a36-761c-4980-93fe-988ed7fba521"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -101,8 +108,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "d960f3e8-0390-4682-9c8e-4dd6a3cf0937",
             "zIndex": -1,
+            "id": "d960f3e8-0390-4682-9c8e-4dd6a3cf0937",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Внешний сервис",
@@ -134,8 +141,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "a2134cba-2591-47dd-a3b2-0819cb6698f3",
             "zIndex": -1,
+            "id": "a2134cba-2591-47dd-a3b2-0819cb6698f3",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Оператор, MFA, RBAC",
@@ -169,6 +176,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -252,7 +260,6 @@
               ]
             },
             "id": "d0f4f077-2f1f-4a90-9beb-9a5107fecf1d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Клиент",
@@ -286,6 +293,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -369,7 +377,6 @@
               ]
             },
             "id": "e5589a2a-7cfa-451b-8e42-622bcf1c0ef5",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Оператор поддержки",
@@ -403,6 +410,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -486,7 +494,6 @@
               ]
             },
             "id": "68c9ab94-3ae9-4cb4-aa96-9131079a65fc",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "OpenAI",
@@ -523,6 +530,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -606,7 +614,6 @@
               ]
             },
             "id": "db83a560-87ca-482e-ae2a-770f24e981dd",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "История чатов",
@@ -644,6 +651,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -727,7 +735,6 @@
               ]
             },
             "id": "8a99de4c-8c23-48b3-b60b-155f60a5899d",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Бэкенд Hal",
@@ -767,6 +774,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -850,7 +858,6 @@
               ]
             },
             "id": "1df13290-8212-4015-a819-fb1a87db0a12",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "Логи CloudWatch",
@@ -869,7 +876,7 @@
           },
           {
             "position": {
-              "x": 612,
+              "x": 621.25,
               "y": 475
             },
             "size": {
@@ -891,6 +898,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -974,7 +982,6 @@
               ]
             },
             "id": "980ae99c-bfd8-41bc-9c24-72453e24d3f3",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "База знаний (RAG)",
@@ -1012,6 +1019,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -1095,7 +1103,6 @@
               ]
             },
             "id": "3db78a36-761c-4980-93fe-988ed7fba521",
-            "zIndex": 8,
             "data": {
               "type": "tm.Actor",
               "name": "Клиентская БД",
@@ -1212,8 +1219,124 @@
             },
             "vertices": [
               {
-                "x": 986,
-                "y": 523
+                "x": 786,
+                "y": 383
+              },
+              {
+                "x": 760,
+                "y": 383
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "5e6dbc3e-6dc8-451f-aec4-0e8d72b6ec22",
+            "source": {
+              "x": 568,
+              "y": 373
+            },
+            "target": {
+              "x": 668,
+              "y": 473
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 430
+              },
+              {
+                "x": 668,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "fc8f50aa-ac7f-440d-9812-f750ad5c33c6",
+            "source": {
+              "x": 554,
+              "y": 400
+            },
+            "target": {
+              "x": 654,
+              "y": 500
+            },
+            "vertices": [
+              {
+                "x": 580,
+                "y": 400
+              },
+              {
+                "x": 630,
+                "y": 450
               }
             ]
           }
