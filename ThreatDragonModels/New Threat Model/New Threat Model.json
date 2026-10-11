@@ -18,7 +18,1206 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 411.25,
+              "y": 15
+            },
+            "size": {
+              "width": 210,
+              "height": 130
+            },
+            "attrs": {
+              "label": {
+                "text": "Интернет"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "7ebf3e6b-960d-482d-a8a5-4c46f9d22875",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Интернет",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "d0f4f077-2f1f-4a90-9beb-9a5107fecf1d"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 301,
+              "y": 195
+            },
+            "size": {
+              "width": 470,
+              "height": 350
+            },
+            "attrs": {
+              "label": {
+                "text": "Приватная сеть, внутренние сервисы\n"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "0bf85ec9-dab0-4a26-ae25-cfba3af9101d",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Приватная сеть, внутренние сервисы\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "6cd4710d-49de-480a-a78d-1aad0d710f29"
+              ],
+              "containedElements": [
+                "db83a560-87ca-482e-ae2a-770f24e981dd",
+                "8a99de4c-8c23-48b3-b60b-155f60a5899d",
+                "1df13290-8212-4015-a819-fb1a87db0a12",
+                "980ae99c-bfd8-41bc-9c24-72453e24d3f3",
+                "3db78a36-761c-4980-93fe-988ed7fba521"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 884,
+              "y": 303
+            },
+            "size": {
+              "width": 220,
+              "height": 120
+            },
+            "attrs": {
+              "label": {
+                "text": "Внешний сервис"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "d960f3e8-0390-4682-9c8e-4dd6a3cf0937",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Внешний сервис",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "9a921010-fb20-4107-84c0-245640608bfb",
+                "6cd4710d-49de-480a-a78d-1aad0d710f29"
+              ],
+              "containedElements": [
+                "68c9ab94-3ae9-4cb4-aa96-9131079a65fc"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 10,
+              "y": 260
+            },
+            "size": {
+              "width": 210,
+              "height": 140
+            },
+            "attrs": {
+              "label": {
+                "text": "Оператор, MFA, RBAC"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "a2134cba-2591-47dd-a3b2-0819cb6698f3",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Оператор, MFA, RBAC",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "e5589a2a-7cfa-451b-8e42-622bcf1c0ef5"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 460,
+              "y": 50
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Клиент"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e44c478c-0438-4c3d-97b2-a55fefb8aa0f"
+                },
+                {
+                  "group": "right",
+                  "id": "b3135d09-a66f-400f-985f-22a63d7c864c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "03bd923f-4f4e-447c-9d95-df771bdd06d1"
+                },
+                {
+                  "group": "left",
+                  "id": "cf0c7091-862f-4ea8-a797-56ad23b41bac"
+                }
+              ]
+            },
+            "id": "d0f4f077-2f1f-4a90-9beb-9a5107fecf1d",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Клиент",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 40,
+              "y": 303
+            },
+            "size": {
+              "width": 150,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Оператор поддержки"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e44c478c-0438-4c3d-97b2-a55fefb8aa0f"
+                },
+                {
+                  "group": "right",
+                  "id": "b3135d09-a66f-400f-985f-22a63d7c864c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "03bd923f-4f4e-447c-9d95-df771bdd06d1"
+                },
+                {
+                  "group": "left",
+                  "id": "cf0c7091-862f-4ea8-a797-56ad23b41bac"
+                }
+              ]
+            },
+            "id": "e5589a2a-7cfa-451b-8e42-622bcf1c0ef5",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Оператор поддержки",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 950,
+              "y": 340
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "OpenAI"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e44c478c-0438-4c3d-97b2-a55fefb8aa0f"
+                },
+                {
+                  "group": "right",
+                  "id": "b3135d09-a66f-400f-985f-22a63d7c864c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "03bd923f-4f4e-447c-9d95-df771bdd06d1"
+                },
+                {
+                  "group": "left",
+                  "id": "cf0c7091-862f-4ea8-a797-56ad23b41bac"
+                }
+              ]
+            },
+            "id": "68c9ab94-3ae9-4cb4-aa96-9131079a65fc",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "OpenAI",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 340,
+              "y": 475
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "История чатов"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b8fea761-d344-4b82-adf5-6bb58272a04c"
+                },
+                {
+                  "group": "right",
+                  "id": "b6909f99-21e9-400d-9fa5-549cfb1c832c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a729fc83-c83d-4297-a6c0-3fb364d65846"
+                },
+                {
+                  "group": "left",
+                  "id": "fd1bea54-bb66-4734-82d6-20c1347d0ca6"
+                }
+              ]
+            },
+            "id": "db83a560-87ca-482e-ae2a-770f24e981dd",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "История чатов",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 456.25,
+              "y": 303
+            },
+            "size": {
+              "width": 120,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Бэкенд Hal"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "74fda66d-0456-4865-8f88-469954ba6000"
+                },
+                {
+                  "group": "right",
+                  "id": "bc6cac7d-0228-45df-815a-dc5b87435c55"
+                },
+                {
+                  "group": "bottom",
+                  "id": "17e94240-a75f-4f0e-a652-b4106f71d43e"
+                },
+                {
+                  "group": "left",
+                  "id": "d0393bbd-7462-4369-956e-be93a4f6bdfe"
+                }
+              ]
+            },
+            "id": "8a99de4c-8c23-48b3-b60b-155f60a5899d",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "Бэкенд Hal",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 476,
+              "y": 475
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Логи CloudWatch"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b8fea761-d344-4b82-adf5-6bb58272a04c"
+                },
+                {
+                  "group": "right",
+                  "id": "b6909f99-21e9-400d-9fa5-549cfb1c832c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a729fc83-c83d-4297-a6c0-3fb364d65846"
+                },
+                {
+                  "group": "left",
+                  "id": "fd1bea54-bb66-4734-82d6-20c1347d0ca6"
+                }
+              ]
+            },
+            "id": "1df13290-8212-4015-a819-fb1a87db0a12",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Store",
+              "name": "Логи CloudWatch",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 612,
+              "y": 475
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "База знаний (RAG)"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b8fea761-d344-4b82-adf5-6bb58272a04c"
+                },
+                {
+                  "group": "right",
+                  "id": "b6909f99-21e9-400d-9fa5-549cfb1c832c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a729fc83-c83d-4297-a6c0-3fb364d65846"
+                },
+                {
+                  "group": "left",
+                  "id": "fd1bea54-bb66-4734-82d6-20c1347d0ca6"
+                }
+              ]
+            },
+            "id": "980ae99c-bfd8-41bc-9c24-72453e24d3f3",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Store",
+              "name": "База знаний (RAG)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 615.75,
+              "y": 243
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Клиентская БД"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e44c478c-0438-4c3d-97b2-a55fefb8aa0f"
+                },
+                {
+                  "group": "right",
+                  "id": "b3135d09-a66f-400f-985f-22a63d7c864c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "03bd923f-4f4e-447c-9d95-df771bdd06d1"
+                },
+                {
+                  "group": "left",
+                  "id": "cf0c7091-862f-4ea8-a797-56ad23b41bac"
+                }
+              ]
+            },
+            "id": "3db78a36-761c-4980-93fe-988ed7fba521",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Клиентская БД",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Сhat context, results(masked)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "d960f3e8-0390-4682-9c8e-4dd6a3cf0937"
+              ]
+            },
+            "labels": [
+              "Сhat context, results(masked)"
+            ],
+            "id": "9a921010-fb20-4107-84c0-245640608bfb",
+            "source": {
+              "x": 573,
+              "y": 353
+            },
+            "target": {
+              "cell": "68c9ab94-3ae9-4cb4-aa96-9131079a65fc",
+              "port": "cf0c7091-862f-4ea8-a797-56ad23b41bac"
+            },
+            "vertices": [
+              {
+                "x": 760,
+                "y": 353
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "0bf85ec9-dab0-4a26-ae25-cfba3af9101d",
+                "d960f3e8-0390-4682-9c8e-4dd6a3cf0937"
+              ]
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "6cd4710d-49de-480a-a78d-1aad0d710f29",
+            "source": {
+              "cell": "68c9ab94-3ae9-4cb4-aa96-9131079a65fc",
+              "port": "cf0c7091-862f-4ea8-a797-56ad23b41bac"
+            },
+            "target": {
+              "cell": "8a99de4c-8c23-48b3-b60b-155f60a5899d",
+              "port": "bc6cac7d-0228-45df-815a-dc5b87435c55"
+            },
+            "vertices": [
+              {
+                "x": 986,
+                "y": 523
+              }
+            ]
+          }
+        ]
       }
     ],
     "diagramTop": 1,
